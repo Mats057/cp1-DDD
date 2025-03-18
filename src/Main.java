@@ -1,6 +1,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, World!");
+		Veiculo clio = new Veiculo("Carro", "1231435", "Renault Clio 2018");
+		Aluno aluno1 = new Aluno("João", 19, clio);
 	}
 }
